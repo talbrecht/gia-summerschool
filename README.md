@@ -16,7 +16,7 @@ cd gia-summerschool/
 
 (conda create --name <env> jupyter netcdf4 scipy matplotlib numpy)
 
-conda activate <env>
+conda activate <env> # (or: pip install notebook)
 
 jupyter notebook --no-browser --port=9427 
 ```
