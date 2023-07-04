@@ -14,6 +14,8 @@ git clone https://github.com/talbrecht/gia-summerschool.git
  
 cd gia-summerschool/
 
+(conda create --name <env> jupyter netcdf4 scipy matplotlib numpy)
+
 conda activate <env>
 
 jupyter notebook --no-browser --port=9427 
